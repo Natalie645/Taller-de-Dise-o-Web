@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Repaso HTML CSS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Repaso Hojas de Estilo de Cascada</h1>
+            <p>En esta clase utilizaremos css y repasaremos la estructura y semantica</p>
+        </header>
+        <nav>
+            <a href="#formatos">Formatos</a>
+            <a href="#imagenes">Imagenes</a>
+            <a href="#tablas">Tablas</a>
+            <a href="#listas">Listas</a>
+            <a href="#css">Estructura CSS</a>
+            <a href="#formulario">Formularios</a>
+        </nav>
+        <main>
+            <section id="formatos">
+                <h2>1. Formatos de Texto</h2>
+                <p>Este texto esta en <b>negrita</b></p>
+                <p>Este texto esta en <i>cursiva</i></p>
+                <p>Este texto esta <u>subrayado</u></p>
+                <p>Formula de Agua: H<sub>2</sub>O</p>
+                <p>Potencia: 10<sup>2</sup>=100</p>
+                <p>Este texto esta <mark>resaltado</mark></p>
+                <p>Este texto esta <del>tachado</del></p>
+            </section>
+            <section id="imagenes">
+                <h2>2. Imagenes</h2>
+                <img src="/imagenes/gatito.webp" width="150px">
+            </section>
+            <section id="tablas">
+                <h2>3. Tablas y Combinaciones</h2>
+                <table border="1">
+                    <tr>
+                        <th colspan="2">Informacion de Etiquetas</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Estructura</td>
+                        <td>header (cabecera)</td>
+                    </tr>
+                    <tr>
+                        <td>main (principal)</td>
+                    </tr>
+                    <tr>
+                        <td>Diseño</td>
+                        <td>style (CSS)</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="listas">
+                <h2>4. Listas Ordenadas y Tipo Bullet</h2>
+                <p>Listas (ul) - Unordered List</p>
+                <ul>
+                    <li>Manzana</li>
+                    <li>Pera</li>
+                </ul>
+                <p>Listas (ol) - Ordered List</p>
+                <ul>
+                    <li>Primero</li>
+                    <li>Segundo</li>
+                </ul>
+            </section>
+            <section id="css">
+                <h2>5. Seccion Box Model</h2>
+                <div class="caja">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quisquam iusto laborum possimus non fuga libero expedita quia architecto officia rem repellendus, culpa doloremque veniam maxime maiores ut incidunt cumque!</p>
+                </div>
+            </section>
+            <style>
+            .caja{
+                background-color:rgb(116, 223, 129);
+                width: 300px;
+                border: 15px solid green;
+                padding: 50px;
+                margin: 20px;
+            }
+            </style>
+            <section id="formulario">
+                <h2>6. Formularios</h2>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Escribe aqui..."><br>
+                    <label>Correo:</label>
+                    <input type="email"><br>
+                    <label>Contraseña:</label>
+                    <input type="password"><br>
+                    <label>Fecha:</label>
+                    <input type="date"><br>
+                    <label>Pais</label><br>
+                    <select>
+                        <option>Bolivia</option>
+                        <option>Chile</option>
+                        <option>España</option>
+                        <option>Argentina</option>
+                    </select>
+                    <div class="opciones">
+                        <p><b>Eligetus gustos (Checkboxes)</b></p>
+                        <input type="checkbox" id="musica"><label for="musica">Musica</label>
+                        <input type="checkbox" id="deporte"><label for="deporte">Deporte</label>
+                        <input type="checkbox" id="cine"><label for="cine">Cine</label>
+                    </div>
+                    <div class="opciones">
+                        <p><b>Cual es tu navegador favorito? (Radio Button)</b></p>
+                        <input type="radio" name="navegador" id="chrome"><label for="chrome">Chrome</label><br>
+                        <input type="radio" name="navegador" id="firefox"><label for="firefox">Firefox</label><br>
+                        <input type="radio" name="navegador" id="opera"><label for="opera">Opera</label><br>
+                    </div>
+                    <br>
+                    <button type="button">Enviar Formulario</button>
+                </form>
+            </section>
+        </main>
+    <footer>
+        <p>Repaso Estructura CSS HTML</p>
+        <p>Nombre Completo: Natalie Javier Astoraique</p>
+    </footer>
+    </body>
+</html>
