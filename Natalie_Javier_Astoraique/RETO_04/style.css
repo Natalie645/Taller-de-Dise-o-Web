@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+}
+table{
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+th, td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    background-color: rgb(226, 228, 229);
+}
+.datos{
+    width: 40px;
+    background-color:rgb(247, 247, 253);
+}
+.total{
+    font-size: 20px;
+}
