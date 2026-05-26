@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: rgb(59, 56, 56);
+}
+
+/* BARRA SUPERIOR */
+.barra-sup{
+    color: black;
+    background-color: #a4ff00;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.barra-contenedor{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.barra-datos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.barra-redes {
+    display: flex;
+    gap: 16px;
+}
+
+/* NAVEGACION */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 15px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    gap: 8px;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.nav-btn{
+    background-color: rgb(16, 16, 16);
+    text-transform: uppercase;
+    border: 1px solid #a4ff00;
+    color: #a4ff00;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 15px;
+    font-weight: 700;
+}
+
+/* HERO */
+header{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    background: url('IMG.png') no-repeat center center;   /* alinear imagen al centro */
+    background-size: cover; /* alinear iammgagen al centro */
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 5.5rem;
+    color: white;
+}
+
+.legado{
+    color: transparent;
+    -webkit-text-stroke: 1px #a4ff00;
+}
+
+.etiqueta{
+    color: #a4ff00;
+    font-weight: 900;
+    border-left: 3px solid #a4ff00;
+    padding: 10px;
+}
+
+.subtitulo{
+    color: rgb(104, 104, 104);
+    font-size: 1.1rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.botones{
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+}
+
+.btn-solido{
+    background-color: #a4ff00;
+    font-weight: 900;
+    padding: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+}   
+
+.btn-borde{
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: transparent;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+}
